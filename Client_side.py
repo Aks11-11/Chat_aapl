@@ -7,7 +7,6 @@ PORT = 12345
 # Create a socket for the client
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((HOST, PORT))
-
 def receive_messages():
     while True:
         try:
